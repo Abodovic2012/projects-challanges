@@ -8,9 +8,9 @@ These writeups are beginner-friendly, tool-based, and written with learning and 
 
 ## 📌 Table of Contents
 
-| Challenge Name             | Category        | Status  | Difficulty | Link                     |
-|----------------------------|------------------|---------|------------|--------------------------|
-| Spectrum                   | Digital Forensics| ✅ Solved | 🟡 Medium   | [View Walkthrough](#-spectrum-challenge-walkthrough) |
-| Phishing Analysis          | Email Forensics  | ✅ Solved | 🟢 Easy     | [View Walkthrough](#-phishing-analysis-challenge-walkthrough) |
+| Challenge Name             | Category        | Status  | Difficulty       |
+|----------------------------|------------------|---------|------------|
+| Spectrum                   | Digital Forensics| ✅ Solved | 🟡 Medium    |  
+| Phishing Analysis          | Email Forensics  | ✅ Solved | 🟢 Easy      |
 
 ---
