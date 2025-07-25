@@ -153,6 +153,42 @@ fcrackzip -v -u -D -p rockyou.txt secret.zip
 # Unzip with password
 unzip -P garfield secret.zip
 
+
 # View audio spectrogram (in Audacity)
 # File > Import > Audio > Switch to Spectrogram view
 ```
+ Lessons Learned – Phishing Analysis Challenge
+Working through this phishing investigation revealed valuable insights into email forensics, artifact analysis, and safe investigation practices. Here’s what we learned:
+
+🧰 Technical Lessons
+Email headers contain gold: Fields like To, From, Subject, Date, and X-Sender-IP help trace the origin and intent of a phishing email.
+
+Text editors are powerful: Tools like Sublime Text allow for deep inspection of .eml files without executing anything dangerous.
+
+Email clients like Thunderbird give a visual overview while retaining header integrity.
+
+Domain & IP analysis tools like WHOIS help identify infrastructure used by attackers.
+
+URL scraping from attachments and email bodies can uncover malicious links.
+
+Visual tools like URL2PNG help you safely preview potentially harmful webpages without visiting them directly.
+## ✍️ Author
+
+**[@Abodovic2012](https://github.com/Abodovic2012)**  
+SOC Analyst | Blue Teamer | Cybersecurity Research
+
+---
+
+## ⚠️ Disclaimer
+
+This write-up is for educational purposes only.  
+Never open suspicious files on your host machine. Always use a VM or sandbox.
+
+---
+
+## ⭐ Support
+
+If this guide helped you, please consider giving the repo a ⭐ star on GitHub!
+
+---
+
